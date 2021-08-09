@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  background-color: cornflowerblue;
+  text-align: left;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0.5rem auto;
+}
+thead {
+  width: 100%;
+  border-bottom: 1px solid green;
+  background-color: honeydew;
+}
+tbody {
+  width: 100%;
+}
+th {
+  padding: 20px;
+  font-size: 1.3rem;
+}
+td {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.container-button-item {
+  display: inline-flex;
+  align-items: center;
+}
+/*Estilos css para el form*/
+form {
+  margin-bottom: 1rem;
+}
+form div {
+  margin: 1rem;
+}
+form .student,
+.task {
+  display: inline-block;
+  width: 15rem;
+  height: 2rem;
+  outline: none;
+}
+.create-task {
+  background-color: rgb(255, 217, 0);
+  border: none;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.create-task:hover {
+  cursor: pointer;
+}
+/*Estilos para botones de todos, completos e incompletos*/
+.all {
+  display: inline-block;
+  width: 5rem;
+  background-color: rgb(55, 21, 248);
+  border: none;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.completed {
+  display: inline-block;
+  width: 5rem;
+  background-color: #2bc937;
+  margin: 0 0.5rem;
+  border: none;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.incomplete {
+  display: inline-block;
+  width: 5rem;
+  background-color: #c9cfc9;
+  border: none;
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.all:hover,
+.completed:hover,
+.incomplete:hover {
+  cursor: pointer;
+}

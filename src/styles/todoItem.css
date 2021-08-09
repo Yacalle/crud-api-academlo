@@ -1,0 +1,32 @@
+.lbl {
+  display: inline-block;
+  background-color: #979797;
+  width: 65px;
+  height: 33px;
+  border-radius: 100px;
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+.lbl:after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 100px;
+  transition: 0.5s;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.switch:checked + .lbl:after {
+  left: 35px;
+}
+.switch:checked + .lbl {
+  background-color: teal;
+}
+.switch {
+  display: none;
+}
